@@ -3,7 +3,7 @@ import { WorkoutConfig, WorkoutPhase, WorkoutState, WorkoutStatus } from '../typ
 import { useWorkoutFeedback } from './useWorkoutFeedback';
 
 const DEFAULT_CONFIG: WorkoutConfig = {
-  sets: 8,
+  sets: 12,
   workInterval: 45,
   restInterval: 15,
   warmupInterval: 10,

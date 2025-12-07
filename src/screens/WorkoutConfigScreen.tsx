@@ -19,7 +19,7 @@ export const WorkoutConfigScreen: React.FC<Props> = ({ config, onConfigChange, o
       <Text style={styles.title}>Workout Setup</Text>
 
       <View style={styles.inputGroup}>
-        <Text style={styles.label}>Sets</Text>
+        <Text style={styles.label}>Rounds</Text>
         <TextInput
           style={styles.input}
           keyboardType="number-pad"
